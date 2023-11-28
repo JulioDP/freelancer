@@ -1,0 +1,65 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+}
+/*  Globales **/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model **/
+    scroll-snap-type: y mandatory;
+}
+/** Scroll Snap**/
+.servicios,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/*Globales*/
+h1{
+    font-size: 4.5rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2.3rem;
+}
+ul{
+    list-style: none;
+}
+
+/*Header*/
+
+.nombre_span{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.navegacion_principal{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero{
+    background-image: url('ruta-de-tu-imagen.jpg'), linear-gradient(to right, #ffcc00, #ff6600);
+}
