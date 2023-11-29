@@ -47,7 +47,9 @@ a{
 ul{
     list-style: none;
 }
-
+.reset_margin{
+    margin: 0;
+}
 /*Header*/
 
 .nombre_span{
@@ -56,10 +58,23 @@ ul{
 }
 
 .navegacion_principal{
+    background-color: var(--secundario);
     display: flex;
     justify-content: space-around;
+    padding: 2rem;
 }
 
 .hero{
-    background-image: url('ruta-de-tu-imagen.jpg'), linear-gradient(to right, #ffcc00, #ff6600);
+    border: solid .5px transparent;
+    width: 100%;
+    min-height: 40rem;
+    background-image: linear-gradient(to left, rgba(2,0,36,1) 0%, rgba(9,9,121,0.4290091036414566) 0%, rgba(0,0,0,0.6474964985994398) 100%),
+    url(".././img/hero.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
